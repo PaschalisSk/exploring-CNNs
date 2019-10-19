@@ -1,6 +1,6 @@
 # Exploring CNNs
 
-The second2 assignment for the Machine Learning Practical class during my AI MSc in the University of Edinburgh (2018/19). It was awarded a grade of 79/100 (A3). Further information can be found in the report file.
+The second assignment for the Machine Learning Practical class during my AI MSc in the University of Edinburgh (2018/19). It was awarded a grade of 79/100 (A3). Further information can be found in the report file.
 
 ## Abstract
 
