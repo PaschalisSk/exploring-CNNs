@@ -4,6 +4,8 @@
 !README.md
 !/code/
 !/mlp/
+/mlp/*
+!/mlp/pytorch_experiment_scripts/
 !/report/
 /report/*
 !/report/report.pdf
