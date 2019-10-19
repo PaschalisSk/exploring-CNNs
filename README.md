@@ -1,14 +1,14 @@
-# Machine Learning Practical
+# Exploring CNNs
 
-This repository contains the code for the University of Edinburgh [School of Informatics](http://www.inf.ed.ac.uk) course [Machine Learning Practical](http://www.inf.ed.ac.uk/teaching/courses/mlp/).
+The second assignment for the Machine Learning Practical class during my AI MSc in the University of Edinburgh (2018/19). It was awarded a grade of 79/100 (A3). Further information can be found in the report file.
 
-This assignment-based course is focused on the implementation and evaluation of machine learning systems. Students who do this course will have experience in the design, implementation, training, and evaluation of machine learning systems.
+## Abstract
 
-The code in this repository is split into:
-
-  *  a Python package `mlp`, a [NumPy](http://www.numpy.org/) based neural network package designed specifically for the course that students will implement parts of and extend during the course labs and assignments,
-  *  a series of [Jupyter](http://jupyter.org/) notebooks in the `notebooks` directory containing explanatory material and coding exercises to be completed during the course labs.
-
-## Getting set up
-
-Detailed instructions for setting up a development environment for the course are given in [this file](notes/environment-set-up.md). Students doing the course will spend part of the first lab getting their own environment set up.
+As is the case with many neural network hyperparameters, the number of kernels in layers of
+convolutional neural nets is usually determined
+ad-hoc. This paper explores the performance
+gains of a common industry practice, increasing the number of kernels in deeper layers, in the
+context of EMNIST, with regards to max-pooling,
+striding, and dilation. Our experiments indicate
+that all three approaches perform almost equally
+better, with up to 0.95% increase in test set accuracy
