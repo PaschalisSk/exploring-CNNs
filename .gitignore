@@ -1,6 +1,9 @@
-*
+/*
+/*/
 !.gitignore
 !README.md
-!code/
-!mlp/
-!report/report.pdf
+!/code/
+!/mlp/
+!/report/
+/report/*
+!/report/report.pdf
